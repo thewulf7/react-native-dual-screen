@@ -7,6 +7,8 @@
 
 React Native package for dual screen devices support (Surface Duo). Surface Neo support is coming
 
+![Surface Duo Demo](examples/sample.gif)
+
 ## Status
 
 - Android:
