@@ -1,6 +1,6 @@
 {
   "name": "react-native-dual-screen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React Native package for dual screen devices support (Surface Duo, Neo)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -52,8 +52,6 @@
     "ios",
     "src",
     "dist",
-    ".dockerignore",
-    ".editorconfig",
     "tslint.json",
     "*.md",
     "*.podspec",
