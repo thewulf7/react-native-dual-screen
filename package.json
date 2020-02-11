@@ -1,39 +1,39 @@
 {
   "name": "react-native-dual-screen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Native package for dual screen devices support (Surface Duo, Neo)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [
     "react-native"
   ],
-  "author": "Microsoft",
+  "author": "Evgenii Utkin (Microsoft)",
   "license": "MIT",
   "scripts": {
-    "init:package": "cd example && npm i && npm run install:pods",
+    "init:package": "cd examples && npm i && npm run install:pods",
     "build": "rm -rf dist && tsc -p ./src",
     "watch": "npm run build -- -w",
     "lint": "npm run lint:ts && npm run lint:kotlin && npm run lint:swift",
-    "lint:ts": "tslint --fix -p ./src && tslint --fix -p ./example/src",
-    "lint:kotlin": "cd example/android && ./gradlew ktlintMainSourceSetFormat",
-    "lint:swift": "cd ios && ../example/ios/Pods/SwiftLint/swiftlint autocorrect && ../example/ios/Pods/SwiftLint/swiftlint",
-    "ci:build": "cd example && npm i",
+    "lint:ts": "tslint --fix -p ./src && tslint --fix -p ./examples/src",
+    "lint:kotlin": "cd examples/android && ./gradlew ktlintMainSourceSetFormat",
+    "lint:swift": "cd ios && ../examples/ios/Pods/SwiftLint/swiftlint autocorrect && ../examples/ios/Pods/SwiftLint/swiftlint",
+    "ci:build": "cd examples && npm i",
     "ci:lint": "npm run ci:lint:ts && npm run ci:lint:kotlin && npm run ci:lint:swift",
-    "ci:lint:ts": "tslint -p ./src && tslint -p ./example/src",
-    "ci:lint:kotlin": "cd example/android && ./gradlew ktlintMainSourceSetCheck",
-    "ci:lint:swift": "cd ios && ../example/ios/Pods/SwiftLint/swiftlint",
-    "ci:compile:android": "cd example/android && ./gradlew compileDebugSources",
-    "ci:compile:ios": "cd example/ios && export RCT_NO_LAUNCH_PACKAGER=\"true\" && export RCT_NO_BUNDLE=\"true\" && xcodebuild CODE_SIGN_IDENTITY=\"\" CODE_SIGNING_REQUIRED=\"NO\" CODE_SIGN_ENTITLEMENTS=\"\" CODE_SIGNING_ALLOWED=\"NO\" -workspace ReactNativeDualScreenExample.xcworkspace -configuration Debug -scheme ReactNativeDualScreenExample test",
+    "ci:lint:ts": "tslint -p ./src && tslint -p ./examples/src",
+    "ci:lint:kotlin": "cd examples/android && ./gradlew ktlintMainSourceSetCheck",
+    "ci:lint:swift": "cd ios && ../examples/ios/Pods/SwiftLint/swiftlint",
+    "ci:compile:android": "cd examples/android && ./gradlew compileDebugSources",
+    "ci:compile:ios": "cd examples/ios && export RCT_NO_LAUNCH_PACKAGER=\"true\" && export RCT_NO_BUNDLE=\"true\" && xcodebuild CODE_SIGN_IDENTITY=\"\" CODE_SIGNING_REQUIRED=\"NO\" CODE_SIGN_ENTITLEMENTS=\"\" CODE_SIGNING_ALLOWED=\"NO\" -workspace ReactNativeDualScreenexamples.xcworkspace -configuration Debug -scheme ReactNativeDualScreenexamples test",
     "preversion": "npm run lint && npm run build",
     "postversion": "git push && git push --tags"
   },
   "bugs": {
-    "url": "https://github.com/com.microsoft/react-native-dual-screen/issues"
+    "url": "https://github.com/thewulf7/react-native-dual-screen/issues"
   },
-  "homepage": "https://github.com/com.microsoft/react-native-dual-screen#readme",
+  "homepage": "https://github.com/thewulf7/react-native-dual-screen#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/com.microsoft/react-native-dual-screen.git"
+    "url": "git+https://github.com/thewulf7/react-native-dual-screen.git"
   },
   "peerDependencies": {
     "@babel/runtime": "*",

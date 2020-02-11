@@ -1,4 +1,4 @@
-package com.microsoft.reactnativedualscreen.dualscreen
+package thewulf7.reactnativedualscreen.dualscreen
 
 import android.content.Context
 import android.graphics.Rect
@@ -7,7 +7,7 @@ import android.view.WindowManager
 import com.facebook.react.bridge.*
 import com.facebook.react.bridge.Arguments.createMap
 import com.facebook.react.modules.core.DeviceEventManagerModule.RCTDeviceEventEmitter
-import com.microsoft.device.display.DisplayMask
+import thewulf7.device.display.DisplayMask
 
 
 class DualScreenManager constructor(context: ReactApplicationContext) : ReactContextBaseJavaModule(context) {
@@ -67,7 +67,7 @@ class DualScreenManager constructor(context: ReactApplicationContext) : ReactCon
 	 */
 	@ReactMethod
 	fun isDualScreenDevice(promise: Promise) {
-		val feature = "com.microsoft.device.display.displaymask"
+		val feature = "thewulf7.device.display.displaymask"
 		promise.resolve(reactApplicationContext.packageManager.hasSystemFeature(feature))
 	}
 

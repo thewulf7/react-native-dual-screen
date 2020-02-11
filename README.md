@@ -1,7 +1,7 @@
 # react-native-dual-screen
 [![npm version](https://badge.fury.io/js/react-native-dual-screen.svg)](https://badge.fury.io/js/react-native-dual-screen)
-[![Dependency Status](https://david-dm.org/com.microsoft/react-native-dual-screen.svg)](https://david-dm.org/com.microsoft/react-native-dual-screen)
-[![devDependencies Status](https://david-dm.org/com.microsoft/react-native-dual-screen/dev-status.svg)](https://david-dm.org/com.microsoft/react-native-dual-screen?type=dev)
+[![Dependency Status](https://david-dm.org/thewulf7/react-native-dual-screen.svg)](https://david-dm.org/thewulf7/react-native-dual-screen)
+[![devDependencies Status](https://david-dm.org/thewulf7/react-native-dual-screen/dev-status.svg)](https://david-dm.org/thewulf7/react-native-dual-screen?type=dev)
 [![typings included](https://img.shields.io/badge/typings-included-brightgreen.svg?t=1495378566925)](package.json)
 [![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/react-native-dual-screen)
 

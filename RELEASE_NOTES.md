@@ -1,1 +1,1 @@
-[release notes](https://github.com/com.microsoft/react-native-dual-screen/releases)
+[release notes](https://github.com/thewulf7/react-native-dual-screen/releases)

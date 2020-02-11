@@ -1,4 +1,4 @@
-package com.microsoft.reactnativedualscreen.dualscreen
+package thewulf7.reactnativedualscreen.dualscreen
 
 import com.facebook.react.module.annotations.ReactModule
 import com.facebook.react.uimanager.SimpleViewManager
