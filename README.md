@@ -5,7 +5,7 @@
 [![typings included](https://img.shields.io/badge/typings-included-brightgreen.svg?t=1495378566925)](package.json)
 [![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/react-native-dual-screen)
 
-React Native package for dual screen devices support (Surface Duo, Neo)
+React Native package for dual screen devices support (Surface Duo). Surface Neo support is coming
 
 ## Status
 
@@ -98,5 +98,7 @@ export default function App() {
 ## Reference
 
 [Documentation](https://aka.ms/dualscreendocs)
+
 [Get the Surface Duo SDK](https://docs.microsoft.com/en-us/dual-screen/android/get-duo-sdk?tabs=java)
+
 [Use the Surface Duo emulator](https://docs.microsoft.com/en-us/dual-screen/android/use-emulator?tabs=windows)
