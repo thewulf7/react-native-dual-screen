@@ -5,7 +5,7 @@ import android.graphics.Canvas
 import android.graphics.Paint
 import android.graphics.Rect
 import android.view.View
-import thewulf7.device.display.DisplayMask
+import com.microsoft.device.display.DisplayMask
 
 class Hinge(context: Context) : View(context) {
     private val mDisplayMask: DisplayMask

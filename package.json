@@ -1,13 +1,13 @@
 {
   "name": "react-native-dual-screen",
-  "version": "0.0.3",
-  "description": "React Native package for dual screen devices support (Surface Duo, Neo)",
+  "version": "0.0.4",
+  "description": "Unofficial React Native package for dual screen devices support (Surface Duo, Neo)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [
     "react-native"
   ],
-  "author": "Evgenii Utkin (Microsoft)",
+  "author": "Evgenii Utkin",
   "license": "MIT",
   "scripts": {
     "init:package": "cd examples && npm i && npm run install:pods",

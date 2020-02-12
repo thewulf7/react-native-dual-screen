@@ -7,7 +7,7 @@ import android.view.WindowManager
 import com.facebook.react.bridge.*
 import com.facebook.react.bridge.Arguments.createMap
 import com.facebook.react.modules.core.DeviceEventManagerModule.RCTDeviceEventEmitter
-import thewulf7.device.display.DisplayMask
+import com.microsoft.device.display.DisplayMask
 
 
 class DualScreenManager constructor(context: ReactApplicationContext) : ReactContextBaseJavaModule(context) {

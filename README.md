@@ -5,7 +5,7 @@
 [![typings included](https://img.shields.io/badge/typings-included-brightgreen.svg?t=1495378566925)](package.json)
 [![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/react-native-dual-screen)
 
-React Native package for dual screen devices support (Surface Duo). Surface Neo support is coming
+Unofficial React Native package for dual screen devices support (Surface Duo)
 
 ![Surface Duo Demo](./sample.gif)
 
